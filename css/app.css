@@ -1,11 +1,33 @@
+body {
+  background-color: #eee;
+}
+
 h1, h2, h3, h4, h5, h6, h7, p {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
 }
 
+a {
+  color: #fc575b;
+}
+
 .section {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+
+
+
+
+.mangoweb-logo, 
+.techsquat-logo {
+  margin-right: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+  position:relative;  
+  top: -.04em;
+  height: 1.25em;
 }
 
 
@@ -24,32 +46,45 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
 */
 
 
-#opening .intro {
-  margin-bottom: 1.5em;
-}
 
 #opening h1.brand {
+  margin: auto;
   display: inline-block;
-  padding: 0 2rem;
+  padding: .25em .5em;
   font-weight: 900;
+  text-align: center;
   border: .15em solid #444;
 }
 
-.mangoweb-logo, .techsquat-logo {
-  margin-right: 5px;
-  margin-left: 5px;
-  vertical-align: middle;
-  position:relative;
-  top: -.05em;
-  height: 1.25em;
-}
 
-.date-and-place h5 {
-  margin: 0;
+
+#opening .date h2,
+#opening .place h2 {
+  margin-top: 1em;
+} 
+#opening .tag {
+  display: block;
+  margin-bottom: -.25em;
+}
+#opening .tag::before {
+  content: "";
+  display: block;
+  border-top: .05em dashed #444;
+  margin-bottom: -.9em;
+}
+#opening .tag b {
+  padding: 0 .5em;
+  font-weight: 400;
   text-transform: uppercase;
-  
+  font-size: 50%;
+  background-color: #eee;
+  z-index: 100;
 }
 
+#opening .claim {
+  margin-top: 5em;
+  text-align: left;
+}
 
 
 
