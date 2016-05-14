@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6, h7, p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #444;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/*
+                                                                  
+                                         ,,                       
+                                         db                       
+                                                                  
+ ,pW"Wq.`7MMpdMAo.  .gP"Ya `7MMpMMMb.  `7MM  `7MMpMMMb.  .P"Ybmmm 
+6W'   `Wb MM   `Wb ,M'   Yb  MM    MM    MM    MM    MM :MI  I8   
+8M     M8 MM    M8 8M""""""  MM    MM    MM    MM    MM  WmmmP"   
+YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M        
+ `Ybmd9'  MMbmmd'   `Mbmmd'.JMML  JMML..JMML..JMML  JMML.YMMMMMb  
+          MM                                            6'     dP 
+        .JMML.                                          Ybmmmd'   
+*/
+
+
+#opening .intro {
+  margin-bottom: 1.5em;
+}
+
+#opening h1.brand {
+  display: inline-block;
+  padding: 0 2rem;
+  font-weight: 900;
+  border: .15em solid #444;
+}
+
+.mangoweb-logo, .techsquat-logo {
+  margin-right: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+  position:relative;
+  top: -.05em;
+  height: 1.25em;
+}
+
+.date-and-place h5 {
+  margin: 0;
+  text-transform: uppercase;
+  
+}
+
+
+
+
+
