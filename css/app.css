@@ -79,7 +79,6 @@ a.link:hover, a.link:active {
                               
 */
 
-
 #nav {
   position: fixed;
   
@@ -87,11 +86,12 @@ a.link:hover, a.link:active {
   left: 0;
   width: 100%;
   z-index: 100;
-  
+}
+.nav {
   display: flex;
   justify-content: space-around;
 }
-#nav a {
+.nav a {
   text-align: center;
   flex-basis: 100%;
   padding: .75em 0;
@@ -100,43 +100,41 @@ a.link:hover, a.link:active {
   background-color: rgba(68,68,68,.9);
   margin-right: 1px;
 }
-#nav a.last {
+.nav a.last {
   margin-right: 0px;
 }
-#nav a span {
+.nav a span {
   display: block;
   white-space: nowrap;
 }
-#nav a:hover {
+.nav a:hover {
   background-color: rgba(51,51,51,.9);
 }
-#nav a.active {
+.nav a.active {
   background-color: rgba(34,34,34,.9);
 }
 #nav a.cta {
   margin-top: 1em;
-  background-color: #00cc99;
+  font-size: 1em;
 }
-#nav a.cta:hover , #nav a.cta:active {
-  background-color: #009966;
-}
+
 @media screen and (min-width: 64em) {
   #nav {
-    width: 10em;
-    
-    background-color: inherit;
     margin-left: 5%;
     margin-top: 2.5vh;
-    display: block;
   }
-  #nav a {
+  .nav {
+    display: block;
+    width: 10em;
+  }
+  .nav a {
     display: inline-block;
     
     margin-bottom: 1px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  #nav a span {
+  .nav a span {
     display: inline-block;
     white-space: nowrap;
   }
