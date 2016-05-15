@@ -13,20 +13,31 @@ a {
 a:hover {
   color: #009966;
 }
-.section {
+.subsection {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+.section {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
 @media screen and (min-width: 40em) {
-  .section {
+  .subsection {
     margin-top: 3em;
     margin-bottom: 3em;
-  } 
+  }
+  .section {
+    margin-top: 6em;
+    margin-bottom: 6em;
+  }
 }
-
+.info {
+  opacity: .5;
+}
 
 a.button, a.button:visited {
   background-color: #00cc99;
+  font-weight: 600;
 }
 a.button:hover , a.button:active {
   background-color: #009966;
@@ -39,7 +50,19 @@ a.button.hollow:hover , a.button.hollow:active {
   color: #009966;
   border-color: #009966;
 }
-
+a.link {
+  font-weight: 600;
+  border-bottom: .1em solid rgba(255,255,255,.5);
+}
+a.link:hover, a.link:active {
+  border-bottom: .1em solid rgba(255,255,255,1);
+}
+.hyphens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 /*
                                          
   ,,                                     
@@ -54,6 +77,16 @@ a.button.hollow:hover , a.button.hollow:active {
                                          
 */
 
+#intro span {
+  opacity: .5;
+} 
+
+#intro a {
+  opacity: .5;
+}
+#intro a:hover {
+  opacity: 1;
+}
 
 .mangoweb-logo, 
 .techsquat-logo {
@@ -63,6 +96,7 @@ a.button.hollow:hover , a.button.hollow:active {
   position:relative;  
   top: -.04em;
   height: 1.25em;
+  
 }
 
 
@@ -114,13 +148,30 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
   z-index: 100;
 }
 #opening .claim {
-
+  text-align: left;
+  -webkit-text-align: justify;
+  -moz-text-align: justify;
 }
 #opening .cta .button { 
   margin-bottom: 0;
 
 }
   
+
+/*
+                                             
+                                             
+                 ,gM""bg                     
+                 8MI  ,8                     
+`7M'    ,A    `MF'WMp,"    `7M'    ,A    `MF'
+  VA   ,VAA   ,V ,gPMN.  jM"'VA   ,VAA   ,V  
+   VA ,V  VA ,V ,M.  YMp.M'   VA ,V  VA ,V   
+    VVV    VVV  8Mp   ,MMp     VVV    VVV    
+     W      W   `YMbmm'``MMm.   W      W     
+                                             
+                                             
+*/
+
 
 
 
