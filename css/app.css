@@ -14,21 +14,23 @@ a:hover {
   color: #009966;
 }
 .subsection {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  padding-top: 1.25em;
 }
 .section {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  padding-top: 3em;
 }
 @media screen and (min-width: 40em) {
   .subsection {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    padding-top: 2.5em;
   }
   .section {
-    margin-top: 5em;
-    margin-bottom: 5em;
+    padding-top: 5em;
+  }
+}
+@media screen and (min-width: 64em) {
+  .section {
+    padding-top: 0em;
+    padding-bottom: 5em;
   }
 }
 .info {
@@ -79,6 +81,21 @@ a.link:hover, a.link:active {
                               
 */
 
+/* correction fixed #nav */
+#intro {
+  padding-top: 6em;  
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #intro {
+    padding-top: 8em;
+  }
+}
+@media screen and (min-width: 64em) {
+  #intro {
+    padding-top: 2.5em;
+  }
+}
+
 #nav {
   position: fixed;
   
@@ -122,6 +139,7 @@ a.link:hover, a.link:active {
   #nav {
     margin-left: 5%;
     margin-top: 2.5vh;
+    width: inherit;
   }
   .nav {
     display: block;
@@ -154,20 +172,8 @@ a.link:hover, a.link:active {
                                          
 */
 
-#intro {
-  margin-top: 5em;
-  /* Compensating fixed nav */
-}
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  #intro {
-    margin-top: 7em;
-    /* Compensating fixed nav */
-  }
-}
-@media screen and (min-width: 64em) {
-  #intro {
-    margin-top: 3em;
-  }
+#intro h3 {
+  margin-bottom: 0;
 }
 #intro span {
   opacity: .5;
@@ -214,7 +220,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
   text-align: center;
   border: .15em solid #00cc99;
   color: #00cc99;
-  margin-bottom: .4em;
+  margin-bottom: .5em;
 }
 #opening h1.brand i {
   font-weight: 300;
@@ -251,10 +257,13 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
 }
 #opening .cta .button { 
   margin-bottom: 0;
-
 }
-  
-
+/* correction switched paddings */
+@media screen and (min-width: 64em) {
+  #opening .cta {
+    padding-bottom: 5em;
+  }
+}
 /*
                                              
                                              
