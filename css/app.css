@@ -1,23 +1,58 @@
 body {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
-h1, h2, h3, h4, h5, h6, h7, p {
+h1, h2, h3, h4, h5, h6, h7, p, a {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
 }
 
 a {
-  color: #fc575b;
+  color: #00cc99;
 }
-
+a:hover {
+  color: #009966;
+}
 .section {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+@media screen and (min-width: 40em) {
+  .section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  } 
 }
 
 
+a.button, a.button:visited {
+  background-color: #00cc99;
+}
+a.button:hover , a.button:active {
+  background-color: #009966;
+}
+a.button.hollow {
+  color: #00cc99;
+  border-color: #00cc99;
+}
+a.button.hollow:hover , a.button.hollow:active {
+  color: #009966;
+  border-color: #009966;
+}
 
+/*
+                                         
+  ,,                                     
+  db              mm                     
+                  MM                     
+`7MM  `7MMpMMMb.mmMMmm `7Mb,od8 ,pW"Wq.  
+  MM    MM    MM  MM     MM' "'6W'   `Wb 
+  MM    MM    MM  MM     MM    8M     M8 
+  MM    MM    MM  MM     MM    YA.   ,A9 
+.JMML..JMML  JMML.`Mbmo.JMML.   `Ybmd9'  
+                                         
+                                         
+*/
 
 
 .mangoweb-logo, 
@@ -45,22 +80,20 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
         .JMML.                                          Ybmmmd'   
 */
 
-
-
 #opening h1.brand {
   margin: auto;
   display: inline-block;
   padding: .25em .5em;
   font-weight: 900;
   text-align: center;
-  border: .15em solid #444;
+  border: .15em solid #00cc99;
+  color: #00cc99
 }
-
-
-
-#opening .date h2,
-#opening .place h2 {
+#opening .date h3,
+#opening .place h3 {
   margin-top: 1em;
+  font-weight: 600;
+  margin-bottom: 0;
 } 
 #opening .tag {
   display: block;
@@ -77,14 +110,17 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
   font-weight: 400;
   text-transform: uppercase;
   font-size: 50%;
-  background-color: #eee;
+  background-color: #ddd;
   z-index: 100;
 }
-
 #opening .claim {
-  margin-top: 5em;
-  text-align: left;
+
 }
+#opening .cta .button { 
+  margin-bottom: 0;
+
+}
+  
 
 
 
