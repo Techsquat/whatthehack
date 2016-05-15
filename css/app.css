@@ -98,6 +98,10 @@ a.link:hover, a.link:active {
   font-weight: 600;
   color: #fff;
   background-color: rgba(68,68,68,.9);
+  margin-right: 1px;
+}
+#nav a.last {
+  margin-right: 0px;
 }
 #nav a span {
   display: block;
@@ -154,7 +158,13 @@ a.link:hover, a.link:active {
 
 #intro {
   margin-top: 5em;
-  /* Compensating fixed na */
+  /* Compensating fixed nav */
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #intro {
+    margin-top: 7em;
+    /* Compensating fixed nav */
+  }
 }
 @media screen and (min-width: 64em) {
   #intro {
