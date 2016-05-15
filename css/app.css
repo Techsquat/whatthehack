@@ -123,7 +123,7 @@ a.link:hover, a.link:active {
 @media screen and (min-width: 64em) {
   #nav {
     width: 10em;
-    height: 100vh;
+    
     background-color: inherit;
     margin-left: 5%;
     margin-top: 2.5vh;
