@@ -362,14 +362,15 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
 }
 .locket {
   display: block;
-  float: left;
-  width: 8em;
-  height: 12em;
-  padding: .5em;
+  
+  
+  margin: auto;
+  max-width: 80px;
   text-align: center;
+  background-color: antiquewhite;
 }
 .locket img {
-  
+  display: inline-block;
   border-radius: 50%;
 }
 
