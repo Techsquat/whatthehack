@@ -302,6 +302,11 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
 #why-and-what .callout h4 {
   text-align: center;
 }
+@media screen and (min-width: 40em) {
+  #why-and-what .callout {
+    margin-bottom: 2em;
+  }
+}
 
 /*
                                                                            
