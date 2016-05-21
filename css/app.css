@@ -18,6 +18,33 @@ a {
 a:hover {
   color: #009966;
 }
+h2, h3 {
+  position: relative;
+}
+h2 em, h3 em {
+  display: block;
+  font-style: normal;
+  position: absolute;
+  left: -1.5em;
+  top: .1em;
+  
+  width: 1.3em;
+  height: 1.3em;
+  line-height: 1.2em;
+
+  font-weight: 400;
+  text-align: right;
+  opacity: .5;
+ 
+}
+h3 em {
+  left: -1.75em;
+}
+@media screen and (min-width: 40em) {
+  h2 em {
+    
+  }
+}
 .subsection {
   padding-top: 1.25em;
 }
@@ -126,7 +153,7 @@ a.link:hover, a.link:active {
   padding: .5em 0;
   font-weight: 600;
   color: #fff;
-  background-color: rgba(68,68,68,.9);
+  background-color: rgba(68,68,68,.9); /* 444 */
   margin-right: 1px;
 }
 .nav a em {
@@ -142,10 +169,10 @@ a.link:hover, a.link:active {
   opacity: .75;
 }
 .nav a:hover {
-  background-color: rgba(51,51,51,.9);
+  background-color: rgba(51,51,51,.9); /* 333 */
 }
 .nav a.active {
-  background-color: rgba(34,34,34,.9);
+  background-color: rgba(34,34,34,.9); /* 222 */
 }
 .nav a:hover span,
 .nav a.active span {
@@ -368,19 +395,21 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM    MM    MM    MM 8M
 .locket {
   display: block;
   margin: auto;
-  max-width: 80px;
+  max-width: 100px;
   text-align: center;
-  background-color: antiquewhite;
-}
-.locket.mentor {
-  max-width: 120px;
+  margin-bottom: 1em;
 }
 .locket img {
   display: inline-block;
   border-radius: 50%;
+  margin-bottom: .25em;
 }
-.locket h5 {
+.locket h6 {
   margin-bottom: 0;
+  line-height: 1.2em;
+}
+.locket p {
+  line-height: 1em;
 }
 
 
