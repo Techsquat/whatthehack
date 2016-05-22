@@ -22,7 +22,8 @@ h2, h3 {
   position: relative;
 }
 h2 em, h3 em {
-  display: block;
+  
+  display: none;
   font-style: normal;
   position: absolute;
   left: -1.5em;
