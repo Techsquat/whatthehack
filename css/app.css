@@ -361,7 +361,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 */
 
 #why-and-what .callout h4 {
-  text-align: center;
+
 }
 @media screen and (min-width: 40em) {
   #why-and-what .callout {
@@ -422,19 +422,12 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #when-and-where .info.tag {
   margin-bottom: 0;
 }
-
-/*
-#when-and-where > .row > .column {
-  background-color: rgba(221,221,221,.9);
-  position: relative;
-  z-index: 50;
-}
-#when-and-where img {
+#when-and-where img,
+#when-and-where iframe {
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-bottom: -50%;
 }
-*/
+
 
 /*
                                            
