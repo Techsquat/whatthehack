@@ -38,7 +38,6 @@ a:hover {
   margin-top: 1.25em;
 }
 .section {
-  //padding-top: 3em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
@@ -55,15 +54,8 @@ a:hover {
     margin-top: 2.5em;
   }
   .section {
-    //padding-top: 5em;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-  }
-}
-@media screen and (min-width: 64em) {
-  .section {
-    //padding-top: 0em;
-    //padding-bottom: 5em;
   }
 }
 .info {
@@ -336,6 +328,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   -webkit-text-align: justify;
   -moz-text-align: justify;
 }
+
 #opening .cta .button { 
   margin-bottom: 0;
 }
@@ -346,7 +339,12 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
     font-size: 1.4em;
   }
 }
-
+/* correction switched paddings */
+@media screen and (min-width: 64em) {
+  #opening .cta {
+    padding-bottom: 2.5em;
+  }
+}
 
 /*
                                      
