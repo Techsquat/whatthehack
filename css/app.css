@@ -339,12 +339,14 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #opening .cta .button { 
   margin-bottom: 0;
 }
-/* correction switched paddings */
-@media screen and (min-width: 64em) {
-  #opening .cta {
-    padding-bottom: 5em;
+@media screen and (min-width: 40em) {
+  #opening .cta .button {
+    padding-top: .7em;
+    padding-bottom: .7em;
+    font-size: 1.4em;
   }
 }
+
 
 /*
                                      
@@ -462,6 +464,13 @@ M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
                                               
 */
 
-#schedule .cta .button { 
+#footer .cta .button { 
   margin-bottom: 0;
+}
+@media screen and (min-width: 40em) {
+  #footer .cta .button {
+    padding-top: .7em;
+    padding-bottom: .7em;
+    font-size: 1.4em;
+  }
 }
