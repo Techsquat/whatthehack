@@ -17,8 +17,12 @@ h2 {
 }
 h3 {
   font-weight: 600;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
+h4 {
+  //font-weight: 600;
+}
+
 b, strong {
   font-weight: 600;
 }
@@ -31,12 +35,16 @@ a:hover {
 
 
 .subsection {
-  padding-top: 1.25em;
+  margin-top: 1.25em;
 }
 .section {
   //padding-top: 3em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+.callout-wrap {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .callout {
   border: none;
@@ -44,7 +52,7 @@ a:hover {
 }
 @media screen and (min-width: 40em) {
   .subsection {
-    padding-top: 2.5em;
+    margin-top: 2.5em;
   }
   .section {
     //padding-top: 5em;
@@ -174,6 +182,7 @@ a.link:hover, a.link:active {
 #nav a.cta {
   margin-top: 1em;
   font-size: 1em;
+  padding: .7em;
 }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .nav a span {
@@ -386,7 +395,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 .locket img {
   display: inline-block;
   border-radius: 50%;
-  margin-bottom: .25em;
+  margin-bottom: .4em;
 }
 .locket h6 {
   margin-bottom: 0;
@@ -413,11 +422,19 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #when-and-where .info.tag {
   margin-bottom: 0;
 }
+
+/*
+#when-and-where > .row > .column {
+  background-color: rgba(221,221,221,.9);
+  position: relative;
+  z-index: 50;
+}
 #when-and-where img {
   margin-top: 1em;
   margin-bottom: 1em;
+  margin-bottom: -50%;
 }
-
+*/
 
 /*
                                            
@@ -432,3 +449,25 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                                            
                                            
 */
+
+#rules h3 {
+  margin-bottom: 0;
+}
+
+/*
+                                              
+                 ,,                       ,,  
+               `7MM                     `7MM  
+                 MM                       MM  
+,pP"Ybd  ,p6"bo  MMpMMMb.  .gP"Ya    ,M""bMM  
+8I   `" 6M'  OO  MM    MM ,M'   Yb ,AP    MM  
+`YMMMa. 8M       MM    MM 8M"""""" 8MI    MM  
+L.   I8 YM.    , MM    MM YM.    , `Mb    MM  
+M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
+                                              
+                                              
+*/
+
+#schedule .cta .button { 
+  margin-bottom: 0;
+}
