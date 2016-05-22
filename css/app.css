@@ -276,8 +276,8 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   color: #00cc99;
   margin-bottom: .5em;
 }
-.date h3,
-.place h3 {
+#opening .date h3,
+#opening .place h3 {
   margin-top: 1em;
   font-weight: 600;
   margin-bottom: 0;
@@ -302,18 +302,18 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
     //letter-spacing: .025em;
   }
 }
-.tag {
+#opening .tag {
   display: block;
   margin-bottom: -.25em;
   letter-spacing: .025em;
 }
-.tag::before {
+#opening .tag::before {
   content: "";
   display: block;
   border-top: 1px dashed #444;
   margin-bottom: -.9em;
 }
-.tag b {
+#opening .tag b {
   padding: 0 .5em;
   font-weight: 400;
   text-transform: uppercase;
@@ -409,4 +409,10 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                                                
 */
 
-
+#when-and-where .info.tag {
+  margin-bottom: 0;
+}
+#when-and-where img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
