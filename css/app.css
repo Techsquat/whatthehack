@@ -349,6 +349,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   margin: auto;
   max-width: 100px;
   text-align: center;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 .locket img {
