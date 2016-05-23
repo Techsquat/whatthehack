@@ -1,7 +1,7 @@
+/* GLOBAL */
 body {
   background-color: #ddd;
 }
-
 h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
@@ -12,31 +12,23 @@ h2 {
   font-weight: 900;
   text-align: center;
   border: .15em solid #444;
-  margin-bottom: 1em;
   opacity: .66;
 }
 h3 {
   font-weight: 600;
-  margin-bottom: .5em;
 }
-h4 {
-  //font-weight: 600;
-}
-
 b, strong {
   font-weight: 600;
 }
-a {
-  color: #00cc99;
-}
-a:hover {
-  color: #009966;
+
+
+/* HELPER CLASSES */
+.info {
+  opacity: .5;
 }
 
 
-.subsection {
-  margin-top: 1.25em;
-}
+/* SECTIONS */
 .section {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -50,18 +42,20 @@ a:hover {
   background-color: rgba(255,255,255,.5);
 }
 @media screen and (min-width: 40em) {
-  .subsection {
-    margin-top: 2.5em;
-  }
   .section {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
   }
 }
-.info {
-  opacity: .5;
-}
 
+
+/* LINKS & BUTTONS */
+a {
+  color: #00cc99;
+}
+a:hover {
+  color: #009966;
+}
 a.button, a.button:visited {
   background-color: #00cc99;
   font-weight: 600;
@@ -91,7 +85,11 @@ a.link:hover, a.link:active {
   hyphens: auto;
 }
 
+
 /* CTA AREA */
+.cta-area {
+  margin-top: 3em;
+}
 .cta-area .button { 
   margin-bottom: 0;
 }
@@ -102,8 +100,6 @@ a.link:hover, a.link:active {
     font-size: 1.4em;
   }
 }
-
-
 
 /*
                               
@@ -119,24 +115,8 @@ a.link:hover, a.link:active {
                               
 */
 
-/* correction fixed #nav */
-#intro {
-  //padding-top: 6em;  
-}
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  #intro {
-    //padding-top: 8em;
-  }
-}
-@media screen and (min-width: 64em) {
-  #intro {
-    //padding-top: 2.5em;
-  }
-}
-
 #nav {
   position: fixed;
-  
   bottom: 0;
   left: 0;
   width: 100%;
@@ -229,33 +209,16 @@ a.link:hover, a.link:active {
   }
 }
 
-/*
-                                         
-  ,,                                     
-  db              mm                     
-                  MM                     
-`7MM  `7MMpMMMb.mmMMmm `7Mb,od8 ,pW"Wq.  
-  MM    MM    MM  MM     MM' "'6W'   `Wb 
-  MM    MM    MM  MM     MM    8M     M8 
-  MM    MM    MM  MM     MM    YA.   ,A9 
-.JMML..JMML  JMML.`Mbmo.JMML.   `Ybmd9'  
-                                         
-                                         
-*/
+
+/* INTRO */
 
 #intro h3 {
-  margin-bottom: 0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
-#intro span {
-  opacity: .5;
-} 
-
-#intro a {
-  opacity: .5;
-}
-#intro a:hover {
-  opacity: 1;
-}
+#intro span     { opacity: .5; } 
+#intro a        { opacity: .5; }
+#intro a:hover  { opacity: 1; }
 
 .mangoweb-logo, 
 .techsquat-logo {
@@ -265,7 +228,6 @@ a.link:hover, a.link:active {
   position:relative;  
   top: -.04em;
   height: 1.25em;
-  
 }
 
 /*
@@ -298,24 +260,17 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   font-weight: 600;
   margin-bottom: 0;
 } 
-.date .nd-wrap {
-  position: relative;
-}
-.date .nd {
-  font-weight: 400;
-}
+.date .nd-wrap  { position: relative; }
+.date .nd       { font-weight: 400; }
 @media screen and (min-width: 40em) { 
   .date .nd {
     position: absolute;
     top: 2.2em;
     left: -2em;
     width: 6em;
-
     font-size: 1rem;
     text-align: center;
     font-weight: 400;
-    //text-transform: uppercase;
-    //letter-spacing: .025em;
   }
 }
 #opening .tag {
@@ -340,15 +295,13 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #opening .claim {
   text-align: left;
   -webkit-text-align: justify;
-  -moz-text-align: justify;
+  -moz-text-align: justify;  
 }
-
-
-/* correction switched paddings */
-@media screen and (min-width: 64em) {
-  #opening .cta-area {
-    padding-bottom: 2.5em;
-  }
+#opening .claim h3 {
+  margin-top: 1em;
+}
+#opening .cta-area {
+  padding-bottom: 2.5em;
 }
 
 /*
@@ -466,3 +419,7 @@ M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
                                               
                                               
 */
+
+#footer {
+  padding-bottom: 5em;
+}
