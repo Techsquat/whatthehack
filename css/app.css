@@ -394,12 +394,18 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #when-and-where .info.tag {
   margin-bottom: 0;
 }
-#when-and-where img,
 #when-and-where iframe {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
+#when-and-where img {
+  margin-bottom: 1.25em;
+}
+@media screen and (min-width: 40em) {
+  #when-and-where img {
+    margin-bottom: 1.5em;
+  }
+}
 
 /*
                                            
