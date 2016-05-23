@@ -42,7 +42,6 @@ b, strong   { font-weight: 600; }
 /* CALLOUT */
 .callout-wrap {
   margin-top: 1.5em;
-  
 }
 .callout {
   border: none;
@@ -255,7 +254,11 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   margin-top: 1em;
   font-weight: 600;
   margin-bottom: 0;
-} 
+}
+.date em {
+  font-style: normal;
+  font-weight: 400;
+}
 .date .nd-wrap  { position: relative; }
 .date .nd       { font-weight: 400; }
 @media screen and (min-width: 40em) { 
