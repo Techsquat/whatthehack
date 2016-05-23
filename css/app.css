@@ -281,6 +281,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   content: "";
   display: block;
   border-top: 1px dashed #444;
+  border-top: 1px dashed rgba(68,68,68,.5); /* 444 */
   margin-bottom: -.9em;
 }
 #opening .tag b {
@@ -427,7 +428,7 @@ table tbody tr:nth-child(even) {
   background-color: inherit;
 }
 table tbody tr {
-  border-bottom: 1px dashed #444;
+  border-bottom: 1px dashed rgba(68,68,68,.5); /* 444 */
 }
 table tbody tr td:first-child {
   padding-left: 0;
@@ -459,8 +460,12 @@ table tbody tr td ul {
 
 @media screen and (min-width: 64em) {
   #faq .question .large-7 {
-    padding-top: 1em;
+    padding-top: .4em;
+  }
 }
+#faq hr {
+  border-bottom: 1px dashed rgba(68,68,68,.5); /* 444 */
+  padding-bottom: .5em;
 }
 
 /*
