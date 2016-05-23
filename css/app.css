@@ -26,6 +26,12 @@ b, strong   { font-weight: 600; }
   -ms-hyphens: auto;
   hyphens: auto;
 }
+hr {
+  border-bottom: 1px dashed rgba(68,68,68,.5); /* 444 */
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 
 /* SECTIONS */
 .section {
@@ -38,6 +44,7 @@ b, strong   { font-weight: 600; }
     padding-bottom: 2.5em;
   }
 }
+
 
 
 /* CALLOUT */
@@ -487,11 +494,7 @@ table tbody tr td ul {
     padding-top: .4em;
   }
 }
-#faq hr {
-  border-bottom: 1px dashed rgba(68,68,68,.5); /* 444 */
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
+
 
 /*
                                
