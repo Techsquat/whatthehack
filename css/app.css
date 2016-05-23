@@ -91,6 +91,20 @@ a.link:hover, a.link:active {
   hyphens: auto;
 }
 
+/* CTA AREA */
+.cta-area .button { 
+  margin-bottom: 0;
+}
+@media screen and (min-width: 40em) {
+  .cta-area .button {
+    padding-top: .7em;
+    padding-bottom: .7em;
+    font-size: 1.4em;
+  }
+}
+
+
+
 /*
                               
                               
@@ -329,19 +343,10 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   -moz-text-align: justify;
 }
 
-#opening .cta .button { 
-  margin-bottom: 0;
-}
-@media screen and (min-width: 40em) {
-  #opening .cta .button {
-    padding-top: .7em;
-    padding-bottom: .7em;
-    font-size: 1.4em;
-  }
-}
+
 /* correction switched paddings */
 @media screen and (min-width: 64em) {
-  #opening .cta {
+  #opening .cta-area {
     padding-bottom: 2.5em;
   }
 }
@@ -461,14 +466,3 @@ M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
                                               
                                               
 */
-
-#footer .cta .button { 
-  margin-bottom: 0;
-}
-@media screen and (min-width: 40em) {
-  #footer .cta .button {
-    padding-top: .7em;
-    padding-bottom: .7em;
-    font-size: 1.4em;
-  }
-}
