@@ -489,7 +489,7 @@ table tbody tr td ul {
                   .JMML.
 */
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
   #faq .question .large-7 {
     padding-top: .4em;
   }
