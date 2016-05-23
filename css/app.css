@@ -442,6 +442,27 @@ table tbody tr td ul {
   color: #00cc99;
 }
 
+
+/*
+                        
+    ,...                
+  .d' ""                
+  dM`                   
+ mMMmm ,6"Yb.  ,dW"Yvd  
+  MM  8)   MM ,W'   MM  
+  MM   ,pm9MM 8M    MM  
+  MM  8M   MM YA.   MM  
+.JMML.`Moo9^Yo.`MbmdMM  
+                    MM  
+                  .JMML.
+*/
+
+@media screen and (min-width: 64em) {
+  #faq .question .large-7 {
+    padding-top: 1em;
+}
+}
+
 /*
                                
     ,...                       
@@ -456,6 +477,7 @@ table tbody tr td ul {
                                
 */
 
-#footer {
-  padding-bottom: 5em;
-}
+  #footer {
+    padding-bottom: 5em;
+  }
+
