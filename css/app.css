@@ -86,7 +86,7 @@ a.link:hover, a.link:active {
   margin-top: 3em;
 }
 .cta-area .button { 
-  margin-bottom: 0;
+  margin-bottom: 0.1em;
 }
 @media screen and (min-width: 40em) {
   .cta-area .button {
@@ -484,6 +484,6 @@ table tbody tr td ul {
 */
 
   #footer {
-    padding-bottom: 5em;
+    padding-bottom: 10em;
   }
 
