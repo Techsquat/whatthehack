@@ -58,7 +58,7 @@ hr {
 .callout img {
   display: block;
   margin: auto;
-  margin-bottom: .4em;
+  margin-bottom: .5em;
 }
 .callout h4 {
   text-align: center;
@@ -433,8 +433,11 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                                            
 */
 
-#rules h3 {
-  margin-bottom: 0;
+@media screen and (min-width: 40em) {
+  #rules .callout {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
 
 /*
