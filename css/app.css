@@ -47,6 +47,25 @@ b, strong   { font-weight: 600; }
   border: none;
   background-color: rgba(255,255,255,.5);
 }
+.callout img {
+  display: block;
+  margin: auto;
+  margin-bottom: .4em;
+}
+.callout h4 {
+  text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+  .callout {
+    margin-bottom: 2em;
+  }
+  .callout img {
+    width: 48px;
+    height: 48px;
+    opacity: .5;
+  }
+}
 
 
 /* LINKS & BUTTONS */
@@ -318,26 +337,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                           OOb"                                                   
 */
 
-#why-and-what .callout img {
-  display: block;
-  margin: auto;
-  margin-bottom: .4em;
-}
-#why-and-what .callout h4 {
-  text-align: center;
-}
 
-@media screen and (min-width: 40em) {
-  #why-and-what .callout {
-    margin-bottom: 2em;
-  }
-  #why-and-what .callout img {
-    
-    width: 48px;
-    height: 48px;
-    opacity: .5;
-  }
-}
 
 /*
                                         
