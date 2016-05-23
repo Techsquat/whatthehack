@@ -465,7 +465,8 @@ table tbody tr td ul {
 }
 #faq hr {
   border-bottom: 1px dashed rgba(68,68,68,.5); /* 444 */
-  padding-bottom: .5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 /*
