@@ -1,7 +1,5 @@
 /* GLOBAL */
-body {
-  background-color: #ddd;
-}
+body { background-color: #ddd; }
 h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
@@ -12,40 +10,43 @@ h2 {
   font-weight: 900;
   text-align: center;
   border: .15em solid #444;
-  opacity: .66;
+  opacity: .8;
 }
-h3 {
-  font-weight: 600;
-}
-b, strong {
-  font-weight: 600;
-}
+h3          { font-weight: 600; }
+b, strong   { font-weight: 600; }
 
 
 /* HELPER CLASSES */
-.info {
-  opacity: .5;
+.info         { opacity: .5; }
+.margintop    { margin-top: 1em; }
+.hyphens, p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
-
 
 /* SECTIONS */
 .section {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
-.callout-wrap {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-.callout {
-  border: none;
-  background-color: rgba(255,255,255,.5);
-}
 @media screen and (min-width: 40em) {
   .section {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
   }
+}
+
+
+/* CALLOUT */
+.callout-wrap {
+  margin-top: 1.5em;
+  
+}
+.callout {
+  border: none;
+  background-color: rgba(255,255,255,.5);
 }
 
 
@@ -78,12 +79,7 @@ a.link {
 a.link:hover, a.link:active {
   border-bottom: .1em solid rgba(255,255,255,1);
 }
-.hyphens {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-}
+
 
 
 /* CTA AREA */
@@ -214,7 +210,7 @@ a.link:hover, a.link:active {
 
 #intro h3 {
   padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 #intro span     { opacity: .5; } 
 #intro a        { opacity: .5; }
@@ -418,6 +414,20 @@ L.   I8 YM.    , MM    MM YM.    , `Mb    MM
 M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
                                               
                                               
+*/
+
+/*
+                               
+    ,...                       
+  .d' ""                 mm    
+  dM`                    MM    
+ mMMmm,pW"Wq.   ,pW"Wq.mmMMmm  
+  MM 6W'   `Wb 6W'   `Wb MM    
+  MM 8M     M8 8M     M8 MM    
+  MM YA.   ,A9 YA.   ,A9 MM    
+.JMML.`Ybmd9'   `Ybmd9'  `Mbmo 
+                               
+                               
 */
 
 #footer {
