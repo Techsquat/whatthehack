@@ -1,6 +1,6 @@
 /* GLOBAL */
 body { background-color: #ddd; }
-h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol {
+h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol, table {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
 }
@@ -418,6 +418,29 @@ M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
                                               
                                               
 */
+table tbody {
+  border: none;
+}
+
+table tbody,
+table tbody tr:nth-child(even) {
+  background-color: inherit;
+}
+table tbody tr {
+  border-bottom: 1px dashed #444;
+}
+table tbody tr td:first-child {
+  padding-left: 0;
+}
+table tbody tr td ul {
+  margin-bottom: 0;
+}
+
+#schedule table tbody tr td:first-child {
+  font-size: 1.4em;
+  font-weight: 900;
+  color: #00cc99;
+}
 
 /*
                                
