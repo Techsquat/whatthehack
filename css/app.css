@@ -400,6 +400,10 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 .locket p {
   line-height: 1em;
 }
+.locket p.info {
+  font-size: .75em;
+  margin-top: .1em;
+}
 
 /*
                                                
