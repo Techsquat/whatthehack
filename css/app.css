@@ -68,7 +68,7 @@ hr {
   .callout {
     margin-bottom: 2em;
   }
-  .callout img {
+  .callout img.ico {
     width: 48px;
     height: 48px;
     opacity: .5;
@@ -348,7 +348,15 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                              ,V      
                           OOb"                                                   
 */
-
+.callout .person {
+  width: 26px;
+  display: inline-block;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
 
 
 /*
