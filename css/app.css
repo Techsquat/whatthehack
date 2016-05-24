@@ -79,7 +79,6 @@ hr {
   .callout.loading {
     padding-top: 4em;
   }
-  
 }
 
 
@@ -351,13 +350,14 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                              ,V      
                           OOb"                                                   
 */
-.callout .person {
-  width: 26px;
+img.chip {
+  width: 1.6em;
+  height: 1.6em;
   display: inline-block;
-  margin-top: -5px;
-  margin-bottom: -3px;
-  margin-right: 5px;
-  margin-left: 10px;
+  line-height: 1em;
+  margin-top: -1.3em;
+  margin-bottom: -1em;
+  margin-right: .25em;
   border-radius: 50%;
 }
 
