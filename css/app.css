@@ -1,10 +1,6 @@
 /* GLOBAL */
 body { 
   background-color: #ddd; 
-  height: 100%;
-  overflow-y: scroll;
-  overflow-scrolling: touch;
-  -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol, table {
   font-family: 'Source Sans Pro', sans-serif;
