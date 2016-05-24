@@ -544,7 +544,14 @@ table tbody tr td ul {
                                
 */
 
-  #footer {
-    padding-bottom: 10em;
-  }
-
+#footer {
+  padding-bottom: 5em;
+}
+#footer .bottom {
+  text-align: center;
+  margin-top: 3em;
+  opacity: .25;
+}
+#footer .bottom img {
+  margin-bottom: .25em;
+}
