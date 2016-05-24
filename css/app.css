@@ -63,6 +63,9 @@ hr {
 .callout h4 {
   text-align: center;
 }
+.callout.loading {
+  opacity: .5;
+}
 
 @media screen and (min-width: 40em) {
   .callout {
@@ -75,8 +78,8 @@ hr {
   }
   .callout.loading {
     padding-top: 4em;
-    opacity: .5;
   }
+  
 }
 
 
