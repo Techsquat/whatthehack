@@ -1,8 +1,9 @@
 /* GLOBAL */
 body { 
   background-color: #ddd; 
-  height: 100%; /* allows content to fill the viewport and go beyond the bottom)*/
-  overflow-y: scroll; /* allows you to scroll below the viewport; the default value is visible) */
+  height: 100%;
+  overflow-y: scroll;
+  overflow-scrolling: touch;
   -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol, table {
