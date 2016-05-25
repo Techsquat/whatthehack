@@ -524,8 +524,11 @@ table tbody tr td ul {
 */
 
 @media screen and (min-width: 40em) {
-  #faq .question .large-7 {
+  #faq .question p {
     padding-top: .4em;
+  }
+  #faq .question h5 {
+    padding-top: .2em;
   }
 }
 

@@ -4,6 +4,10 @@ Design, code: Vladimir Mokry
 @vmokry
 Prague, CZ
 
+CSS lightbox: Martin Vytrhlik
+@vytick
+Prague, CZ
+
 Copy, help: Everyone at Techsquat.com
 
 
