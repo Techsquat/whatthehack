@@ -1,6 +1,6 @@
 /* GLOBAL */
-body { 
-  background-color: #ddd; 
+body {
+  background-color: #ddd;
 }
 h1, h2, h3, h4, h5, h6, h7, p, a, ul, ol, table {
   font-family: 'Source Sans Pro', sans-serif;
@@ -122,7 +122,7 @@ a.link:hover, a.link:active {
 .cta-area {
   margin-top: 3em;
 }
-.cta-area .button { 
+.cta-area .button {
   margin-bottom: 0.1em;
 }
 @media screen and (min-width: 40em) {
@@ -134,17 +134,17 @@ a.link:hover, a.link:active {
 }
 
 /*
-                              
-                              
-                              
-                              
+
+
+
+
 `7MMpMMMb.   ,6"Yb.`7M'   `MF'
-  MM    MM  8)   MM  VA   ,V  
-  MM    MM   ,pm9MM   VA ,V   
-  MM    MM  8M   MM    VVV    
-.JMML  JMML.`Moo9^Yo.   W     
-                              
-                              
+  MM    MM  8)   MM  VA   ,V
+  MM    MM   ,pm9MM   VA ,V
+  MM    MM  8M   MM    VVV
+.JMML  JMML.`Moo9^Yo.   W
+
+
 */
 
 #nav {
@@ -248,32 +248,32 @@ a.link:hover, a.link:active {
   padding-top: 1.5em;
   padding-bottom: 1em;
 }
-#intro span     { opacity: .5; } 
+#intro span     { opacity: .5; }
 #intro a        { opacity: .5; }
 #intro a:hover  { opacity: 1; }
 
-.mangoweb-logo, 
+.mangoweb-logo,
 .techsquat-logo {
   margin-right: 5px;
   margin-left: 5px;
   vertical-align: middle;
-  position:relative;  
+  position:relative;
   top: -.04em;
   height: 1.25em;
 }
 
 /*
-                                       
-                                       
-                                       
-                                       
- ,pW"Wq.`7MMpdMAo.  .gP"Ya `7MMpMMMb.  
-6W'   `Wb MM   `Wb ,M'   Yb  MM    MM  
-8M     M8 MM    M8 8M""""""  MM    MM  
-YA.   ,A9 MM   ,AP YM.    ,  MM    MM  
+
+
+
+
+ ,pW"Wq.`7MMpdMAo.  .gP"Ya `7MMpMMMb.
+6W'   `Wb MM   `Wb ,M'   Yb  MM    MM
+8M     M8 MM    M8 8M""""""  MM    MM
+YA.   ,A9 MM   ,AP YM.    ,  MM    MM
  `Ybmd9'  MMbmmd'   `Mbmmd'.JMML  JMML.
-          MM                           
-        .JMML.                           
+          MM
+        .JMML.
 */
 
 #opening h1.brand {
@@ -298,7 +298,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 }
 .date .nd-wrap  { position: relative; }
 .date .nd       { font-weight: 400; }
-@media screen and (min-width: 40em) { 
+@media screen and (min-width: 40em) {
   .date .nd {
     position: absolute;
     top: 2.2em;
@@ -332,7 +332,7 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 #opening .claim {
   text-align: left;
   -webkit-text-align: justify;
-  -moz-text-align: justify;  
+  -moz-text-align: justify;
 }
 #opening .claim h3 {
   margin-top: 1em;
@@ -342,17 +342,17 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
 }
 
 /*
-                                     
-                  ,,                 
-                `7MM                 
-                  MM                 
+
+                  ,,
+                `7MM
+                  MM
 `7M'    ,A    `MF'MMpMMMb.`7M'   `MF'
-  VA   ,VAA   ,V  MM    MM  VA   ,V  
-   VA ,V  VA ,V   MM    MM   VA ,V   
-    VVV    VVV    MM    MM    VVV    
-     W      W   .JMML  JMML.  ,V     
-                             ,V      
-                          OOb"                                                   
+  VA   ,VAA   ,V  MM    MM  VA   ,V
+   VA ,V  VA ,V   MM    MM   VA ,V
+    VVV    VVV    MM    MM    VVV
+     W      W   .JMML  JMML.  ,V
+                             ,V
+                          OOb"
 */
 img.chip {
   width: 1.6em;
@@ -367,20 +367,20 @@ img.chip {
 
 
 /*
-                                        
-                                        
-         mm     mm                      
-         MM     MM                      
- ,6"Yb.mmMMmm mmMMmm .gP"Ya `7MMpMMMb.  
-8)   MM  MM     MM  ,M'   Yb  MM    MM  
- ,pm9MM  MM     MM  8M""""""  MM    MM  
-8M   MM  MM     MM  YM.    ,  MM    MM  
+
+
+         mm     mm
+         MM     MM
+ ,6"Yb.mmMMmm mmMMmm .gP"Ya `7MMpMMMb.
+8)   MM  MM     MM  ,M'   Yb  MM    MM
+ ,pm9MM  MM     MM  8M""""""  MM    MM
+8M   MM  MM     MM  YM.    ,  MM    MM
 `Moo9^Yo.`Mbmo  `Mbmo`Mbmmd'.JMML  JMML.
-                                                                                                              
+
 */
 
 #attendees {
-  
+
 }
 .locket {
   display: block;
@@ -400,13 +400,13 @@ img.chip {
   position: absolute;
   top: 15%;
   width: 100%;
-  
+
   text-align: center;
   vertical-align: middle;
   font-size: 2rem;
   line-height: 1.2em;
   opacity: .5;
-  
+
 }
 .locket h6 {
   margin-bottom: 0;
@@ -421,17 +421,17 @@ img.chip {
 }
 
 /*
-                                               
-                  ,,                           
-                `7MM                           
-                  MM                           
-`7M'    ,A    `MF'MMpMMMb.  .gP"Ya `7MMpMMMb.  
-  VA   ,VAA   ,V  MM    MM ,M'   Yb  MM    MM  
-   VA ,V  VA ,V   MM    MM 8M""""""  MM    MM  
-    VVV    VVV    MM    MM YM.    ,  MM    MM  
+
+                  ,,
+                `7MM
+                  MM
+`7M'    ,A    `MF'MMpMMMb.  .gP"Ya `7MMpMMMb.
+  VA   ,VAA   ,V  MM    MM ,M'   Yb  MM    MM
+   VA ,V  VA ,V   MM    MM 8M""""""  MM    MM
+    VVV    VVV    MM    MM YM.    ,  MM    MM
      W      W   .JMML  JMML.`Mbmmd'.JMML  JMML.
-                                               
-                                               
+
+
 */
 
 #when-and-where .info.tag {
@@ -451,17 +451,17 @@ img.chip {
 }
 
 /*
-                                           
-                       ,,                  
-                     `7MM                  
-                       MM                  
-`7Mb,od8 `7MM  `7MM    MM  .gP"Ya  ,pP"Ybd 
-  MM' "'   MM    MM    MM ,M'   Yb 8I   `" 
-  MM       MM    MM    MM 8M"""""" `YMMMa. 
-  MM       MM    MM    MM YM.    , L.   I8 
-.JMML.     `Mbod"YML..JMML.`Mbmmd' M9mmmP' 
-                                           
-                                           
+
+                       ,,
+                     `7MM
+                       MM
+`7Mb,od8 `7MM  `7MM    MM  .gP"Ya  ,pP"Ybd
+  MM' "'   MM    MM    MM ,M'   Yb 8I   `"
+  MM       MM    MM    MM 8M"""""" `YMMMa.
+  MM       MM    MM    MM YM.    , L.   I8
+.JMML.     `Mbod"YML..JMML.`Mbmmd' M9mmmP'
+
+
 */
 
 @media screen and (min-width: 40em) {
@@ -472,17 +472,17 @@ img.chip {
 }
 
 /*
-                                              
-                 ,,                       ,,  
-               `7MM                     `7MM  
-                 MM                       MM  
-,pP"Ybd  ,p6"bo  MMpMMMb.  .gP"Ya    ,M""bMM  
-8I   `" 6M'  OO  MM    MM ,M'   Yb ,AP    MM  
-`YMMMa. 8M       MM    MM 8M"""""" 8MI    MM  
-L.   I8 YM.    , MM    MM YM.    , `Mb    MM  
+
+                 ,,                       ,,
+               `7MM                     `7MM
+                 MM                       MM
+,pP"Ybd  ,p6"bo  MMpMMMb.  .gP"Ya    ,M""bMM
+8I   `" 6M'  OO  MM    MM ,M'   Yb ,AP    MM
+`YMMMa. 8M       MM    MM 8M"""""" 8MI    MM
+L.   I8 YM.    , MM    MM YM.    , `Mb    MM
 M9mmmP'  YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML.
-                                              
-                                              
+
+
 */
 table tbody {
   border: none;
@@ -510,16 +510,16 @@ table tbody tr td ul {
 
 
 /*
-                        
-    ,...                
-  .d' ""                
-  dM`                   
- mMMmm ,6"Yb.  ,dW"Yvd  
-  MM  8)   MM ,W'   MM  
-  MM   ,pm9MM 8M    MM  
-  MM  8M   MM YA.   MM  
-.JMML.`Moo9^Yo.`MbmdMM  
-                    MM  
+
+    ,...
+  .d' ""
+  dM`
+ mMMmm ,6"Yb.  ,dW"Yvd
+  MM  8)   MM ,W'   MM
+  MM   ,pm9MM 8M    MM
+  MM  8M   MM YA.   MM
+.JMML.`Moo9^Yo.`MbmdMM
+                    MM
                   .JMML.
 */
 
@@ -531,17 +531,17 @@ table tbody tr td ul {
 
 
 /*
-                               
-    ,...                       
-  .d' ""                 mm    
-  dM`                    MM    
- mMMmm,pW"Wq.   ,pW"Wq.mmMMmm  
-  MM 6W'   `Wb 6W'   `Wb MM    
-  MM 8M     M8 8M     M8 MM    
-  MM YA.   ,A9 YA.   ,A9 MM    
-.JMML.`Ybmd9'   `Ybmd9'  `Mbmo 
-                               
-                               
+
+    ,...
+  .d' ""                 mm
+  dM`                    MM
+ mMMmm,pW"Wq.   ,pW"Wq.mmMMmm
+  MM 6W'   `Wb 6W'   `Wb MM
+  MM 8M     M8 8M     M8 MM
+  MM YA.   ,A9 YA.   ,A9 MM
+.JMML.`Ybmd9'   `Ybmd9'  `Mbmo
+
+
 */
 
 #footer {
@@ -554,4 +554,36 @@ table tbody tr td ul {
 }
 #footer .bottom img {
   margin-bottom: .25em;
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
 }
