@@ -93,7 +93,7 @@ a {
 a:hover {
   color: #009966;
 }
-a.button, a.button:visited {
+a.button, a.button:visited, a.button.disabled:hover, a.button.disabled:active {
   background-color: #00cc99;
   font-weight: 600;
 }
