@@ -359,15 +359,18 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
                              ,V
                           OOb"
 */
-img.chip {
+.chip {
+  margin-right: .5em;
+  white-space: nowrap;
+}
+.chip img {
   width: 1.6em;
   height: 1.6em;
   display: inline-block;
   line-height: 1em;
   margin-top: -1.3em;
   margin-bottom: -1em;
-  margin-right: .25em;
-  margin-left: .5em;
+  
   border-radius: 50%;
 }
 
