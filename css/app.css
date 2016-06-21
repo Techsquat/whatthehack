@@ -101,6 +101,7 @@ a.button.disabled:visited
 {
   background-color: #00cc99;
   font-weight: 600;
+  color: #fff;
 }
 a.button:hover , a.button:active {
   background-color: #009966;
@@ -120,8 +121,17 @@ a.link {
 a.link:hover, a.link:active {
   border-bottom: .1em solid rgba(255,255,255,1);
 }
-
-
+a.link.bold {
+  border: none;
+  display: inline-block;
+  background-color: #00cc99;
+  color: #fff;
+  padding: .1em .4em;
+}
+a.link.bold:hover,
+a.link.bold:active {
+  background-color: #009966;
+}
 
 /* CTA AREA */
 .cta-area {
