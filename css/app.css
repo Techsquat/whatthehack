@@ -404,6 +404,9 @@ YA.   ,A9 MM   ,AP YM.    ,  MM    MM
   margin-right: -1rem;
   margin-top: -1.5rem;
 }
+#projects .callout h3 {
+  text-align: center;
+}
 
 
 
