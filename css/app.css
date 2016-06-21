@@ -397,6 +397,14 @@ img.chip {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.locket.disabled {
+  opacity: .4;
+  -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+}
 .locket img {
   display: inline-block;
   border-radius: 50%;
